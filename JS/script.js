@@ -9,6 +9,7 @@ const motorcycles = [
     specs: { power: "95 HP", engine: "649cc" },
     isNew: true,
     isFeatured: true,
+    subPage: "assets/sub-pages/honda-cb650r.html",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const motorcycles = [
     specs: { power: "47 HP", engine: "471cc" },
     isNew: true,
     isFeatured: false,
+    subPage: "assets/sub-pages/honda-cb500x.html",
   },
   {
     id: 3,
@@ -29,16 +31,18 @@ const motorcycles = [
     specs: { power: "189 HP", engine: "999cc" },
     isNew: true,
     isFeatured: true,
+    subPage: "assets/sub-pages/honda-cbr1000rr.html",
   },
   {
     id: 4,
     name: "Honda CB500 Hornet",
     category: "Naked",
     price: "175.000.000",
-    image: "images/honda-cb500-hornet.jpg",
+    image: "images/honda-cb500-hornet2.jpg",
     specs: { power: "47 HP", engine: "471cc" },
     isNew: true,
     isFeatured: false,
+    subPage: "assets/sub-pages/honda-cb500-hornet.html",
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ const motorcycles = [
     specs: { power: "208 HP", engine: "1103cc" },
     isNew: false,
     isFeatured: true,
+    subPage: "assets/sub-pages/ducati-streetfighter-v4.html",
   },
   {
     id: 6,
@@ -59,6 +64,7 @@ const motorcycles = [
     specs: { power: "210 HP", engine: "999cc" },
     isNew: true,
     isFeatured: true,
+    subPage: "assets/sub-pages/bmw-m1000r.html",
   },
   {
     id: 7,
@@ -69,6 +75,7 @@ const motorcycles = [
     specs: { power: "165 HP", engine: "999cc" },
     isNew: false,
     isFeatured: false,
+    subPage: "assets/sub-pages/bmw-s1000r.html",
   },
   {
     id: 8,
@@ -79,6 +86,7 @@ const motorcycles = [
     specs: { power: "142 HP", engine: "1043cc" },
     isNew: false,
     isFeatured: true,
+    subPage: "assets/sub-pages/kawasaki-z1000.html",
   },
   {
     id: 9,
@@ -89,6 +97,7 @@ const motorcycles = [
     specs: { power: "310 HP", engine: "998cc" },
     isNew: false,
     isFeatured: true,
+    subPage: "assets/sub-pages/kawasaki-ninja-h2r.html",
   },
   {
     id: 10,
@@ -99,6 +108,7 @@ const motorcycles = [
     specs: { power: "200 HP", engine: "998cc" },
     isNew: true,
     isFeatured: true,
+    subPage: "assets/sub-pages/yamaha-r1.html",
   },
   {
     id: 11,
@@ -109,6 +119,7 @@ const motorcycles = [
     specs: { power: "118 HP", engine: "599cc" },
     isNew: false,
     isFeatured: false,
+    subPage: "assets/sub-pages/yamaha-r6.html",
   },
   {
     id: 12,
@@ -119,6 +130,7 @@ const motorcycles = [
     specs: { power: "74 HP", engine: "689cc" },
     isNew: true,
     isFeatured: false,
+    subPage: "assets/sub-pages/yamaha-fz7.html",
   },
   {
     id: 13,
@@ -129,6 +141,7 @@ const motorcycles = [
     specs: { power: "231 HP", engine: "998cc" },
     isNew: false,
     isFeatured: true,
+    subPage: "assets/sub-pages/kawasaki-ninja-h2.html",
   },
   {
     id: 14,
@@ -139,6 +152,7 @@ const motorcycles = [
     specs: { power: "20 HP", engine: "225cc" },
     isNew: true,
     isFeatured: false,
+    subPage: "assets/sub-pages/tvs-ronin-225.html",
   },
   {
     id: 15,
@@ -149,6 +163,7 @@ const motorcycles = [
     specs: { power: "44 HP", engine: "373cc" },
     isNew: true,
     isFeatured: true,
+    subPage: "assets/sub-pages/ktm-rc390.html",
   },
 ];
 
@@ -185,7 +200,7 @@ function renderProducts(category = 'all') {
     : motorcycles.filter(m => m.category === category);
 
   productsGrid.innerHTML = filteredProducts.map(motorcycle => `
-    <div class="product-card" data-category="${motorcycle.category}">
+    <a href="${motorcycle.subPage}" class="product-card" data-category="${motorcycle.category}">
       <div class="product-image">
         <img src="${motorcycle.image}" alt="${motorcycle.name}" loading="lazy">
         <div class="product-badges">
@@ -193,12 +208,12 @@ function renderProducts(category = 'all') {
           ${motorcycle.isFeatured ? '<span class="badge badge-hot">Hot</span>' : ''}
         </div>
         <div class="product-actions">
-          <button class="action-btn" aria-label="Yêu thích">
+          <button class="action-btn" aria-label="Yêu thích" onclick="event.preventDefault(); event.stopPropagation();">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
             </svg>
           </button>
-          <button class="action-btn" aria-label="Xem nhanh">
+          <button class="action-btn" aria-label="Xem nhanh" onclick="event.preventDefault(); event.stopPropagation();">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
               <circle cx="12" cy="12" r="3"></circle>
@@ -218,7 +233,7 @@ function renderProducts(category = 'all') {
         <h3 class="product-name">${motorcycle.name}</h3>
         <div class="product-footer">
           <p class="product-price">${motorcycle.price} <span>VNĐ</span></p>
-          <button class="product-btn">
+          <button class="product-btn" type="button">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="9" cy="21" r="1"></circle>
               <circle cx="20" cy="21" r="1"></circle>
@@ -228,7 +243,7 @@ function renderProducts(category = 'all') {
           </button>
         </div>
       </div>
-    </div>
+    </a>
   `).join('');
 }
 
@@ -273,19 +288,23 @@ window.addEventListener('scroll', () => {
   lastScroll = currentScroll;
 });
 
-// Smooth scroll for anchor links
+// Smooth scroll for anchor links (only internal anchors starting with #)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      const headerHeight = header.offsetHeight;
-      const targetPosition = target.offsetTop - headerHeight;
-      
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      });
+    const href = this.getAttribute('href');
+    // Only handle internal anchor links, not external links
+    if (href && href.startsWith('#') && href.length > 1) {
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        const headerHeight = header.offsetHeight;
+        const targetPosition = target.offsetTop - headerHeight;
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
     }
   });
 });

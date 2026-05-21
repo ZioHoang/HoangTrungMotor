@@ -514,12 +514,16 @@ a {
 }
 
 .product-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   background: rgba(31, 31, 31, 0.8);
   backdrop-filter: blur(8px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .product-card:hover {
