@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoàng Trung Motor - Premium Motorcycle Dealer & Workshop</title>
+  <meta name="description" content="Khám phá những chiếc xe motor cao cấp tại Hoàng Trung Motor. Đại lý và workshop uy tín hàng đầu Việt Nam với hơn 5 năm kinh nghiệm.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Hoàng Trung Motor" height="56">
+        </a>
+        
+        <nav class="nav-desktop">
+          <a href="#home">Trang Chủ</a>
+          <a href="#products">Sản Phẩm</a>
+          <a href="#about">Về Chúng Tôi</a>
+          <a href="#contact">Liên Hệ</a>
+          <a href="#lab">Lab Thực Hành</a>
+        </nav>
+        
+        <div class="header-actions">
+          <a href="tel:+84123456789" class="phone-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>0123 456 789</span>
+          </a>
+          <button class="btn btn-primary">Đặt Lịch Hẹn</button>
+        </div>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="#home">Trang Chủ</a>
+        <a href="#products">Sản Phẩm</a>
+        <a href="#about">Về Chúng Tôi</a>
+        <a href="#contact">Liên Hệ</a>
+        <a href="#lab">Lab Thực Hành</a>
+        <div class="mobile-menu-footer">
+          <a href="tel:+84123456789" class="phone-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>0123 456 789</span>
+          </a>
+          <button class="btn btn-primary" style="width:100%;">Đặt Lịch Hẹn</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="images/hero-motorcycle.jpg" alt="Premium Motorcycle">
+      <div class="hero-overlay"></div>
+      <div class="hero-overlay-top"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-subtitle">Premium Motorcycle Dealer & Workshop</p>
+        <h1 class="hero-title">
+          <span>Khám Phá</span><br>
+          <span class="text-primary">Đẳng Cấp & Phong Cách</span><br>
+          <span>Xe Motor</span>
+        </h1>
+        <p class="hero-description">
+          Chào mừng bạn đến với Hoàng Trung Motor - nơi quy tụ những chiếc xe motor hàng đầu thế giới. 
+          Từ sportbike mạnh mẽ đến cruiser sang trọng, chúng tôi mang đến trải nghiệm đẳng cấp nhất.
+        </p>
+        <p class="hero-slogan">-Hãy "Chơi" Theo Cách Của Bạn-</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-lg">
+            Khám Phá Ngay
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+          <button class="btn btn-outline btn-lg">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            Xem Video
+          </button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Xe Đã Bán</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Thương Hiệu</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Năm Kinh Nghiệm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Bộ Sưu Tập</p>
+        <h2 class="section-title">Xe Motor Nổi Bật</h2>
+        <p class="section-description">
+          Khám phá những mẫu xe motor cao cấp nhất từ các thương hiệu hàng đầu thế giới. 
+          Mỗi chiếc xe đều được kiểm tra kỹ lưỡng và đảm bảo chất lượng tuyệt đối.
+        </p>
+      </div>
+      
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Tất Cả</button>
+        <button class="filter-btn" data-filter="Sport">Sport</button>
+        <button class="filter-btn" data-filter="Naked">Naked</button>
+        <button class="filter-btn" data-filter="Adventure">Adventure</button>
+        <button class="filter-btn" data-filter="Scrambler">Scrambler</button>
+      </div>
+      
+      <div class="products-grid" id="productsGrid">
+        <!-- Products will be inserted by JavaScript -->
+      </div>
+      
+      <div class="products-footer">
+        <button class="btn btn-outline btn-lg">Xem Tất Cả Sản Phẩm</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <p class="section-subtitle">Về Chúng Tôi</p>
+          <h2 class="section-title">
+            <span>Đam Mê Xe Motor</span><br>
+            <span class="text-primary">Từ Năm 2014</span>
+          </h2>
+          <p class="about-description">
+            Hoàng Trung Motor là đại lý xe motor và workshop uy tín hàng đầu Việt Nam với hơn 5 năm kinh nghiệm. 
+            Chúng tôi tự hào mang đến những chiếc xe chất lượng nhất từ các thương hiệu danh tiếng thế giới.
+          </p>
+          <p class="about-description">
+            Với đội ngũ kỹ thuật viên lành nghề và tư vấn viên chuyên nghiệp, chúng tôi cam kết 
+            mang đến trải nghiệm mua xe hoàn hảo nhất cho khách hàng.
+          </p>
+          
+          <div class="features-grid">
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Chất Lượng Đảm Bảo</h4>
+                <p>Tất cả xe đều được kiểm tra và chứng nhận chất lượng</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Đội Ngũ Chuyên Nghiệp</h4>
+                <p>Tư vấn viên am hiểu sâu về từng dòng xe</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Bảo Hành Dài Hạn</h4>
+                <p>Chính sách bảo hành lên đến 5 năm</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+              </div>
+              <div>
+                <h4>Giao Xe Toàn Quốc</h4>
+                <p>Vận chuyển an toàn đến tận nhà</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Xe Đã Bán</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Thương Hiệu</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Năm Kinh Nghiệm</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">98%</span>
+            <span class="stat-label">Khách Hài Lòng</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Liên Hệ</p>
+        <h2 class="section-title">Kết Nối Với Chúng Tôi</h2>
+        <p class="section-description">
+          Có câu hỏi hoặc muốn đặt lịch xem xe? Hãy liên hệ ngay với đội ngũ tư vấn của chúng tôi.
+        </p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Thông Tin Liên Hệ</h3>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <h4>Địa Chỉ</h4>
+                <p>123 Nguyễn Văn Linh, Quận 7, TP. Hồ Chí Minh</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Điện Thoại</h4>
+                <p>0123 456 789</p>
+                <p>0987 654 321</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>info@HoangTrungMotorSTU.vn</p>
+                <p>sales@HoangTrungMotorSTU.vn</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Giờ Làm Việc</h4>
+                <p>Thứ 2 - Thứ 6: 8:00 - 18:00</p>
+                <p>Thứ 7 - CN: 9:00 - 17:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-wrapper">
+          <h3>Gửi Tin Nhắn</h3>
+          <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Họ và tên" required>
+            <div class="form-row">
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="tel" name="phone" placeholder="Số điện thoại" required>
+            </div>
+            <textarea name="message" placeholder="Nội dung tin nhắn..." rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary" style="width:100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              Gửi Tin Nhắn
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="Hoàng Trung Motor" height="48">
+          </a>
+          <p>
+            Đại lý xe motor và workshop uy tín hàng đầu Việt Nam với hơn 5 năm kinh nghiệm. 
+            Chúng tôi mang đến những chiếc xe chất lượng nhất.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" aria-label="Youtube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#0a0a0a"></polygon>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Liên Kết Nhanh</h4>
+          <ul>
+            <li><a href="#home">Trang Chủ</a></li>
+            <li><a href="#products">Sản Phẩm</a></li>
+            <li><a href="#about">Về Chúng Tôi</a></li>
+            <li><a href="#contact">Liên Hệ</a></li>
+            <li><a href="#lab">Lab Thực Hành</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Thương Hiệu</h4>
+          <ul>
+            <li><a href="#">Honda</a></li>
+            <li><a href="#">Yamaha</a></li>
+            <li><a href="#">Kawasaki</a></li>
+            <li><a href="#">Ducati</a></li>
+            <li><a href="#">BMW</a></li>
+            <li><a href="#">KTM</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Liên Hệ</h4>
+          <ul>
+            <li>123 Nguyễn Văn Linh</li>
+            <li>Quận 7, TP. Hồ Chí Minh</li>
+            <li>0123 456 789</li>
+            <li>info@HoangTrungMotorSTU.vn</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 HOANGTRUNGMOTOR. Tất cả quyền được bảo lưu.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Chính Sách Bảo Mật</a>
+          <a href="#">Điều Khoản Sử Dụng</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
