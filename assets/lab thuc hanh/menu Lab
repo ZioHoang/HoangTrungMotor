@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW M1000R - Hoàng Trung Motor</title>
+  <meta name="description" content="BMW M1000R - Naked performance đầu bảng của BMW Motorrad tại Hoàng Trung Motor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="../../css/Lab.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="../../index.html" class="logo"><img src="../../images/logo.png" alt="Hoàng Trung Motor" height="56"></a>
+        <nav class="nav-desktop">
+          <a href="../../index.html#home">Trang Chủ</a>
+          <a href="../../index.html#products">Sản Phẩm</a>
+          <a href="../../index.html#about">Về Chúng Tôi</a>
+          <a href="../../index.html#contact">Liên Hệ</a>
+          <a href="#">Lab Thực Hành</a>
+
+        </nav>
+        <div class="header-actions">
+          <a href="tel:+84123456789" class="phone-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>0123 456 789</span></a>
+          <button class="btn btn-primary">Đặt Lịch Hẹn</button>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="../../index.html#home">Trang Chủ</a>
+        <a href="../../index.html#products">Sản Phẩm</a>
+        <a href="../../index.html#about">Về Chúng Tôi</a>
+        <a href="../../index.html#contact">Liên Hệ</a>
+        <a href="#">Lab Thực Hành</a>
+      </nav>
+    </div>
+  </header>
+
+<main class="labs-main">
+
+        <div class="labs-grid">
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 01</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab01/Vi_du/Lab1_3.html">Lab1_3</a>
+                    </li>
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab01/Vi_du/Lab1_4.html">Lab1_4</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 02</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab02/lab02_bai2.html">Lab2_1</a>
+                    </li>
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab02/lab02_bai2.html">Lab2_2</a>
+                    </li>
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab02/lab02_bai3.html">Lab2_3</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 03</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab03/Lab03/Vi_du_Lab01/lab03_bai1.html">Lab3_1</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab03/Lab03/Vi_du_Lab01/lab03_bai2.html">Lab3_2</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab03/Lab03/Vi_du_Lab01/lab03_bai3.html">Lab3_3</a></li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 04</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab04/Lab04/Vi_du/lab04_bai1.html">Lab4_1</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab04/Lab04/Vi_du/lab04_bai2.html">Lab4_2</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab04/Lab04/Vi_du/lab04_bai3.html">Lab4_3</a></li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 05</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab05/Lab05/Bai_2/lab05_menu.html">Lab5_1</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab05/Lab05/Vi_du/index.html">Lab5_2</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab05/Lab05/Bai_2/index.html">Lab5_3</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab05/Lab05/Bai_2/index.html">Lab5_4</a></li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 06</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab06/Lab06/lab06_menu_responsive.html">Lab6_1</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab06/Lab06/Bai_2_Minh_hoa_layout/lab06_bai2.html">Lab6_2</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab06/Lab06/Bai_2_Minh_hoa_layout/lab06_bai3.html">Lab6_3</a></li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 07</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab07/Vi_du/index.html">lab7_1</a>
+                    </li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab07/demo_bai_2/index.html">Lab7_2</a></li>
+                </ul>
+            </div>
+
+            <div class="lab-card">
+                <span class="Lab-title"><strong>Lab 08</strong></span>
+                <ul class="lab-files">
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab08/lab08_slider.html">Lab8_1</a>
+                    </li>
+                    <li><i class="fa-regular fa-file-code"></i><a
+                            href="./BaiTapLab/Lab08/lab08_slider_auto.html">Lab8_2</a></li>
+                    <li><i class="fa-regular fa-file-code"></i><a href="./BaiTapLab/Lab08/lab08_json.html">Lab8_3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../../index.html" class="logo"><img src="../../images/logo.png" alt="Hoàng Trung Motor" height="48"></a>
+          <p>Đại lý xe motor và workshop uy tín hàng đầu Việt Nam với hơn 5 năm kinh nghiệm.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path></svg></a>
+            <a href="#" aria-label="Youtube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path></svg></a>
+          </div>
+        </div>
+        <div class="footer-links"><h4>Liên Kết Nhanh</h4><ul><li><a href="../../index.html#home">Trang Chủ</a></li><li><a href="../../index.html#products">Sản Phẩm</a></li><li><a href="../../index.html#about">Về Chúng Tôi</a></li><li><a href="../../index.html#contact">Liên Hệ</a></li></ul></div>
+        <div class="footer-links"><h4>Thương Hiệu</h4><ul><li><a href="#">Honda</a></li><li><a href="#">Yamaha</a></li><li><a href="#">Kawasaki</a></li><li><a href="#">Ducati</a></li><li><a href="#">BMW</a></li></ul></div>
+        <div class="footer-contact"><h4>Liên Hệ</h4><ul><li>123 Nguyễn Văn Linh</li><li>Quận 7, TP. Hồ Chí Minh</li><li>0123 456 789</li><li>info@HoangTrungMotorSTU.vn</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2024 HOANGTRUNGMOTOR. Tất cả quyền được bảo lưu.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = mobileMenuBtn.querySelector('.menu-icon');
+    const closeIcon = mobileMenuBtn.querySelector('.close-icon');
+    mobileMenuBtn.addEventListener('click', () => { const isOpen = mobileMenu.classList.toggle('active'); menuIcon.style.display = isOpen ? 'none' : 'block'; closeIcon.style.display = isOpen ? 'block' : 'none'; });
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => { header.style.backgroundColor = window.pageYOffset > 100 ? 'rgba(20, 20, 20, 0.95)' : 'rgba(20, 20, 20, 0.8)'; });
+  </script>
+</body>
+</html>
